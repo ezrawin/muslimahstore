@@ -348,8 +348,14 @@ z-index: 999;}
   border-bottom:1px solid #e5e5e5;
   color: #fff;
   padding: 20px 0 20px;
+  background-image:url('image/Straws-Tileable-Pattern-For-Website-Background.jpg');
 }
 
+.brands-area img{
+	padding-left:40px;
+	width:200px;
+	height:100px;
+}
 .promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #f4f4f4}
 .single-promo {
     font-size: 25px;
@@ -492,10 +498,11 @@ z-index: 999;}
 .maincontent-area {padding-bottom: 50px; padding-top:20px;}
 
 .product-wid-title {
-  font-family: raleway;
-  font-size: 30px;
+  font-family:Aharoni;
+  font-size: 25px;
   font-weight: 100;
   margin-bottom: 40px;
+  color:#000000;
 }
 
 
@@ -533,8 +540,8 @@ z-index: 999;}
     background: none repeat scroll 0 0 #5a88ca;
     color: #fff;
     padding: 3px 15px;
-    position: absolute;
-    right: 10px;
+    position:absolute;
+    right: 250px;
     top: 3px;
 }
 .wid-view-more:hover {color: #fff;background-color: #222;text-decoration: none}
@@ -1111,14 +1118,24 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 
 .single-shop-product h2 {
     font-size: 20px;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 .product-option-shop {
     margin-top: 15px;
 }
 
-.single-shop-product {margin-bottom: 50px}
+.single-shop-product {
+margin-bottom: 50px;
+}
 
+/* .product-upper {
+margin-bottom:50px;
+position:fixed;
+} */
+.product-upper img{
+	width:200px;
+	height:300px;
+}
 .pagination > li > a, .pagination > li > span {
   color: #5a88ca;
 }
