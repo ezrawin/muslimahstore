@@ -3953,7 +3953,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eee;
 }
 .nav > li.disabled > a {
-  color: black;
+  color: #777;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
@@ -3998,7 +3998,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
+  background-color:white;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -4317,13 +4317,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav {
     float: left;
     margin: 0;
-  }
+   }
   .navbar-nav > li {
     float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    color:black;
+    font-weight:bold;
   }
 }
 .navbar-form {
@@ -4948,7 +4950,7 @@ a.badge:focus {
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
-    background-image:url('../../../Stock Image/Grid-subtle-textures.jpg');
+    background-image:url('../../Stock%20Image/Grid-subtle-textures.jpg');
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
